@@ -1,0 +1,6 @@
+#ifndef AVX_LDLT_FUNCTIONS_REFERENCE_IMPLEMENTATION_H
+#define AVX_LDLT_FUNCTIONS_REFERENCE_IMPLEMENTATION_H
+
+void ref_solve(int n, int* Lp, int* Li, double* Lx, double* Dinv, double* x);
+
+#endif //AVX_LDLT_FUNCTIONS_REFERENCE_IMPLEMENTATION_H
